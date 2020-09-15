@@ -20,7 +20,7 @@ HOST = config['opengate']['host']
 PORT = config['opengate']['port']
 ORGANIZATION = config['admin']['organization']
 CHANNEL = config['admin']['channel']
-API_KEY = config['admin']['api_key']
+API_KEY = os.getenv("API_KEY")
 URL_OPS = config['opengate']['url_ops']
 
 session = requests.Session()

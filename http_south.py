@@ -20,8 +20,8 @@ HOST = config['opengate']['host']
 PORT = config['opengate']['port']
 ORGANIZATION = config['admin']['organization']
 CHANNEL = config['admin']['channel']
-URL_SOUTH = config['opengate']['url_south']
 API_KEY = os.getenv("API_KEY")
+URL_SOUTH = config['opengate']['url_south']
 
 session = requests.Session()
 session.headers.update({'X-ApiKey': API_KEY})
