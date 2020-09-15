@@ -1,0 +1,26 @@
+{
+  "job": {
+    "request": {
+      "operationParameters": {
+        "timeout": 90000,
+        "retries": 0,
+        "retriesDelay": 0
+      },
+      "name": "SET_DEVICE_PARAMETERS",
+      "schedule": {
+        "stop": {
+          "delayed": 120000
+        }
+      },
+      "parameters": {
+        "variableList": [{ "name": "q", "value": "12" }]
+      },
+      "target": {
+        "append": {
+          "entities": ["your-device-id"]
+        }
+      },
+      "active": true
+    }
+  }
+}

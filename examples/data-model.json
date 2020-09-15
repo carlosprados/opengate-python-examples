@@ -1,0 +1,58 @@
+{
+  "identifier": "health",
+  "organizationName": "xxxxxxx",
+  "name": "health",
+  "version": "1.0",
+  "allowedResourceTypes": ["entity.device", "entity.asset"],
+  "categories": [
+    {
+      "identifier": "health",
+      "datastreams": [
+        {
+          "identifier": "heartRate",
+          "name": "heartRate",
+          "description": "heartRate",
+          "period": "INSTANT",
+          "access": "READ",
+          "schema": {
+            "type": "number"
+          },
+          "storage": {
+            "period": "DAYS",
+            "total": 366
+          },
+          "unit": {
+            "label": "bps",
+            "symbol": "bps",
+            "type": "SI"
+          },
+          "modifiable": true,
+          "calculated": false,
+          "required": false
+        },
+        {
+          "identifier": "movement",
+          "name": "movement",
+          "description": "movement",
+          "period": "INSTANT",
+          "access": "READ",
+          "schema": {
+            "type": "boolean"
+          },
+          "storage": {
+            "period": "DAYS",
+            "total": 366
+          },
+          "unit": {
+            "label": "",
+            "symbol": "",
+            "type": "SI"
+          },
+          "modifiable": true,
+          "calculated": false,
+          "required": false
+        }
+      ]
+    }
+  ]
+}

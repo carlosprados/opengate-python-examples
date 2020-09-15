@@ -1,0 +1,42 @@
+{
+  "identifier": "clevercare-admin",
+  "name": "Clever Care Admin",
+  "version": "0.0",
+  "description": "Clever Care Admin Data Model",
+  "categories": [
+    {
+      "identifier": "admin",
+      "name": "Admin",
+      "datastreams": [
+        {
+          "identifier": "provision.ccare.firstname",
+          "name": "First Name",
+          "description": "First Name",
+          "period": "INSTANT",
+          "unit": {},
+          "access": "READ,WRITE",
+          "required": false,
+          "modifiable": true,
+          "schema": { "type": "string" },
+          "storage": { "period": "DAYS", "total": 30 },
+          "hardwareIds": [],
+          "icon": {}
+        },
+        {
+          "identifier": "provision.ccare.surname",
+          "name": "Sur Name",
+          "description": "Sur Name",
+          "period": "INSTANT",
+          "unit": {},
+          "access": "READ,WRITE",
+          "required": false,
+          "modifiable": true,
+          "schema": { "type": "string" },
+          "storage": { "period": "DAYS", "total": 30 },
+          "hardwareIds": [],
+          "icon": {}
+        }
+      ]
+    }
+  ]
+}

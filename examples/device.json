@@ -1,0 +1,79 @@
+{
+  "provision.device.identifier": {
+    "_value": {
+      "_current": {
+        "value": "deleteme"
+      }
+    }
+  },
+  "provision.administration.organization": {
+    "_value": {
+      "_current": {
+        "value": "sensehat"
+      }
+    }
+  },
+  "provision.administration.channel": {
+    "_value": {
+      "_current": {
+        "value": "default_channel"
+      }
+    }
+  },
+  "provision.administration.serviceGroup": {
+    "_value": {
+      "_current": {
+        "value": "emptyServiceGroup"
+      }
+    }
+  },
+  "provision.device.specificType": {
+    "_value": {
+      "_current": {
+        "value": "SENSOR"
+      }
+    }
+  },
+  "provision.device.administrativeState": {
+    "_value": {
+      "_current": {
+        "value": "ACTIVE"
+      }
+    }
+  },
+  "provision.device.operationalStatus": {
+    "_value": {
+      "_current": {
+        "value": "NORMAL"
+      }
+    }
+  },
+  "provision.device.related": {
+    "_value": {
+      "_current": {
+        "value": "c1"
+      }
+    }
+  },
+  "provision.device.name": {
+    "_value": {
+      "_current": {
+        "value": "Heart rate sensor"
+      }
+    }
+  },
+  "provision.device.description": {
+    "_value": {
+      "_current": {
+        "value": "Heart rate sensor"
+      }
+    }
+  },
+  "provision.device.serialNumber": {
+    "_value": {
+      "_current": {
+        "value": "123456789"
+      }
+    }
+  }
+}

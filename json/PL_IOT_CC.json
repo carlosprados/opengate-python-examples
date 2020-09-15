@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "device": "your-device-id",
+  "datastreams": [
+    {
+      "id": "ccare.bps",
+      "datapoints": [
+        {
+          "value": 121
+        }
+      ]
+    }
+  ]
+}

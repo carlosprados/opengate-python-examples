@@ -1,0 +1,44 @@
+{
+  "filter": { "eq": { "resourceType": "entity.asset" } },
+  "limit": { "size": 10, "start": 1 },
+  "select": [
+    {
+      "name": "provision.asset.identifier",
+      "fields": [{ "field": "value", "alias": "Prov. Identifier" }]
+    },
+    {
+      "name": "provision.administration.organization",
+      "fields": [{ "field": "value" }]
+    },
+    {
+      "name": "provision.administration.identifier",
+      "fields": [{ "field": "value" }]
+    },
+    { "name": "resourceType", "fields": [{ "field": "value" }] },
+    {
+      "name": "provision.device.communicationModules[].identifier",
+      "fields": [{ "field": "value" }]
+    },
+    { "name": "provision.asset.related", "fields": [{ "field": "value" }] },
+    {
+      "name": "provision.asset.specificType",
+      "fields": [{ "field": "value" }]
+    },
+    {
+      "name": "provision.device.specificType",
+      "fields": [{ "field": "value" }]
+    },
+    {
+      "name": "provision.device.communicationModules[].specificType",
+      "fields": [{ "field": "value" }]
+    },
+    {
+      "name": "provision.device.communicationModules[].subscriber.specificType",
+      "fields": [{ "field": "value" }]
+    },
+    {
+      "name": "provision.device.communicationModules[].subscription.specificType",
+      "fields": [{ "field": "value" }]
+    }
+  ]
+}

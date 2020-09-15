@@ -1,0 +1,8 @@
+{
+  "operation": {
+    "request": {
+      "deviceId": "__DEVICEID__",
+      "path": []
+    }
+  }
+}

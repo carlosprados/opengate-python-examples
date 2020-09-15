@@ -1,0 +1,20 @@
+{
+  "resourceType": { "_value": { "_current": { "value": "entity.asset" } } },
+  "provision.asset.identifier": { "_value": { "_current": { "value": "a1" } } },
+  "provision.administration.organization": {
+    "_value": { "_current": { "value": "sensehat" } }
+  },
+  "provision.administration.channel": {
+    "_value": { "_current": { "value": "default_channel" } }
+  },
+  "provision.administration.serviceGroup": {
+    "_value": { "_current": { "value": "emptyServiceGroup" } }
+  },
+  "provision.asset.location": {
+    "_value": {
+      "_current": {
+        "value": { "position": { "coordinates": [-3.6655122, 40.47799439] } }
+      }
+    }
+  }
+}

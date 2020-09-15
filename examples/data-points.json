@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "device": "air_turbine_1",
+  "datastreams": [
+    {
+      "id": "windSpeed",
+      "datapoints": [
+        { "at": 1586855199000, "value": 2 },
+        { "at": 1586860199000, "value": 2.5 },
+        { "at": 1586865199000, "value": 2 },
+        { "at": 1586870199000, "value": 2.5 },
+        { "at": 1586875199000, "value": 3 },
+        { "at": 1586880199000, "value": 3.5 },
+        { "at": 1586850199000, "value": 3.8 },
+        { "at": 1586885199000, "value": 4.1 },
+        { "at": 1586890199000, "value": 4.5 },
+        { "at": 1586895199000, "value": 3 },
+        { "at": 1586900199000, "value": 1 },
+        { "at": 1586905199000, "value": 2 },
+        { "at": 1586910199000, "value": 2.6 },
+        { "at": 1586915199000, "value": 2.8 },
+        { "at": 1586920199000, "value": 4 },
+        { "at": 1586925199000, "value": 4.5 },
+        { "at": 1586930199000, "value": 6 },
+        { "at": 1586935199000, "value": 6.5 },
+        { "at": 1586940199000, "value": 7 },
+        { "at": 1586945199000, "value": 8 },
+        { "at": 1586950199000, "value": 9 }
+      ]
+    },
+    {
+      "id": "ratedPower",
+      "datapoints": [{ "at": 1586950199000, "value": 1 }]
+    },
+    {
+      "id": "outputPower",
+      "datapoints": [{ "at": 1586950199000, "value": 850 }]
+    },
+    {
+      "id": "performance",
+      "datapoints": [{ "at": 1586950199000, "value": 95 }]
+    },
+    {
+      "id": "outputVoltage",
+      "datapoints": [{ "at": 1586950199000, "value": 690 }]
+    },
+    {
+      "id": "outputCurrent",
+      "datapoints": [{ "at": 1586950199000, "value": 820 }]
+    },
+    {
+      "id": "tempTransformer",
+      "datapoints": [{ "at": 1586950199000, "value": 90 }]
+    }
+  ]
+}

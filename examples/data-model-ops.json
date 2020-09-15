@@ -1,0 +1,49 @@
+{
+  "identifier": "clevercare-ops",
+  "name": "Clever Care Operations",
+  "version": "0.0",
+  "description": "Clever Care Operations Data Model",
+  "allowedResourceTypes": ["entity.asset", "entity.device"],
+  "categories": [
+    {
+      "identifier": "health",
+      "name": "Health",
+      "datastreams": [
+        {
+          "identifier": "bps",
+          "name": "Beats per second",
+          "description": "Beats per second",
+          "period": "INSTANT",
+          "unit": { "label": "bps", "symbol": "bps" },
+          "access": "READ",
+          "required": false,
+          "modifiable": true,
+          "schema": { "type": "number" },
+          "storage": { "period": "DAYS", "total": 30 },
+          "hardwareIds": [],
+          "icon": {}
+        }
+      ]
+    },
+    {
+      "identifier": "home",
+      "name": "Home",
+      "datastreams": [
+        {
+          "identifier": "presence",
+          "name": "Presence",
+          "description": "Presence",
+          "period": "INSTANT",
+          "unit": { "label": "presence", "symbol": "pr" },
+          "access": "READ",
+          "required": false,
+          "modifiable": true,
+          "schema": { "type": "boolean" },
+          "storage": { "period": "DAYS", "total": 30 },
+          "hardwareIds": [],
+          "icon": {}
+        }
+      ]
+    }
+  ]
+}
