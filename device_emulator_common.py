@@ -121,6 +121,42 @@ def reboot(content, device_id):
     }
 
 
+def refresh_info(content, device_id):
+    '''
+    REFRESH_INFO response emulation
+    '''
+
+    print('Simulating the REFRESH_INFO of the equipment')
+    operation_id = content['operation']['request']['id']
+    return {
+        'version': '7.0',
+        'operation': {
+            'response': {
+                'deviceId': device_id,
+                'timestamp': int(round(time.time() * 1000)),
+                'name': 'REFRESH_INFO',
+                'id': operation_id,
+                'resultCode': 'SUCCESSFUL',
+                'resultDescription': 'Success',
+                'steps': [
+                    {
+                        'name': 'REFRESH_INFO',
+                        'timestamp': int(round(time.time() * 1000)),
+                        'result': 'SUCCESSFUL',
+                        'description': 'Refresh Info Ok',
+                        'response': [
+                            {
+                                'name': 'ccare.bps',
+                                'value': 200
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+
+
 def update(content, device_id, publish_operation_step_response):
     '''
     Update response emulation

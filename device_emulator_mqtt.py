@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 import click
 import paho.mqtt.client as mqtt
 
-from device_emulator_common import operation_step_response, reboot, update, set_device_parameters
+from device_emulator_common import operation_step_response, reboot, update, set_device_parameters, refresh_info
 
 load_dotenv()
 
@@ -72,6 +72,9 @@ class OpenGateMqtt():
         if operation_name == 'REBOOT_EQUIPMENT':
             response_as_json = json.dumps(
                 reboot(content, self._user), indent=2)
+        elif operation_name == 'REFRESH_INFO':
+            response_as_json = json.dumps(
+                refresh_info(content, self._user), indent=2)
         elif operation_name == 'SET_DEVICE_PARAMETERS':
             response_as_json = json.dumps(
                 set_device_parameters(content, self._user), indent=2)
